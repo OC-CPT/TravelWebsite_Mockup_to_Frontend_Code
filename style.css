@@ -1,0 +1,272 @@
+/* Remove Layout Defaults*/
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container-fluid {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+/* Nav bar*/
+
+.navbar-toggler {
+    background-color: #FF4E50 !important;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.nav-item a:hover {
+    color: #FF4E50 !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#signup {
+    border-radius: 24px;
+    margin-left: 15px;
+}
+
+#signup:hover {
+    color: #FF4E50;
+}
+
+/* Hero Section */
+
+#hero {
+    background-image: url("assests/headerBackground.jpg");
+    background-size: cover !important;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.h-txt {
+    font-family: 'Roboto', sans-serif;
+    padding: 15% 2%;
+}
+
+#share_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#partner_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color:white;
+    font-size: 22px;
+}
+
+.btn-pink {
+    background-color: #FF4E50;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 24px;
+    padding: 10px 15px;
+}
+
+.btn-pink:hover {
+    background-color: white !important;
+    color: #FF4E50;
+}
+
+/* Profile Section */
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.btn-profile-pink {
+    background-color: white;
+    color: #FF4E50;
+    border: 2px solid #FF4E50;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 24px;
+    padding: 10px 15px;
+}
+
+.btn-profile-pink:hover {
+    background-color: #FF4E50 !important;
+    color: white;
+    border: 2px solid white;
+}
+
+#imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+#imgcontainer {
+    padding-top: 5%;
+}
+
+#imgcontainer img {
+    border-radius: 50%;
+}
+
+#imgcontainer, h6 {
+    padding-top: 25px;
+    color: #444444;
+    font-weight: 700;
+}
+
+#imgcontainer, p {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#meet {
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+#partnerbtn {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px;
+}
+
+.main-header { 
+    padding-top: 170px; 
+    height: 850px; 
+    background: linear-gradient(#004092, #020202, transparent), url("assests/block4Games.jpg") no-repeat center; 
+    background-size: cover; 
+    box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
+    }
+    
+.black-gradient {
+    background-size: cover;
+    background-color: #000000;
+    padding: 0;
+}
+
+.black-gradient img { 
+    background-size: cover;
+    opacity: 0.5; 
+}
+
+.height {
+    height: 100%;
+}
+
+
+.width img {
+    width: 100%;
+}
+
+.carousel-caption p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;  
+    padding: 0;
+}
+
+.gallery_margin p{
+    padding-bottom: 35%;
+}
+
+.gallery_fix p{
+    margin-bottom: -15% !important;
+}
+
+
+.gallerySpace {
+    margin: 10px;
+}
+
+#blacktxt {
+    color:black;
+}
+
+.profile_icon {
+position: absolute;
+  top: 35%;
+  left: 64%;
+  border-radius: 50%;
+  padding: 9px;
+  border: solid 3px #fff;
+}
+
+/* Footer section*/
+
+#logo {
+    width: 150px;
+    margin-left: 250px !important;
+}
+
+#music {
+    background-color: #FF4E50;
+}
+
+#brush {
+    background-color: #18D4CA;
+}
+
+#camera {
+    background-color: #FFA710;
+}
+
+#airplane {
+    background-color: #667DF3;
+}
+
+/* FOOTER */
+
+#logo2 {
+    width: 120px;
+    margin-left: 120px;
+}
+
+#footerlogo {
+    font-weight: bold;
+    color: red;
+}
+
+footer li {
+    color: #666666 !important;
+}
+
+footer h5 {
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer li {
+    font-family: 'Montserrat', sans-serif;
+    color: #666666 !important;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #FF4E50 !important;
+    font-weight: bold;
+}
